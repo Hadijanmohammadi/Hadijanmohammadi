@@ -3,8 +3,8 @@
 # This workflow assumes you have already created the target Azure App Service web app.
 # For instructions see https://docs.microsoft.com/en-us/azure/app-service/quickstart-nodejs?tabs=linux&pivots=development-environment-cli
 #
-# To configure this workflow:
-#
+# To configure this workflow:{Mr,janmohammadi Hadi
+# 
 # 1. Download the Publish Profile for your Azure Web App. You can download this file from the Overview page of your Web App in the Azure Portal.
 #    For more information: https://docs.microsoft.com/en-us/azure/app-service/deploy-github-actions?tabs=applevel#generate-deployment-credentials
 #
@@ -14,16 +14,16 @@
 # 3. Change the value for the AZURE_WEBAPP_NAME. Optionally, change the AZURE_WEBAPP_PACKAGE_PATH and NODE_VERSION environment variables below.
 #
 # For more information on GitHub Actions for Azure: https://github.com/Azure/Actions
-# For more information on the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# For more information on the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy janmohammadihadiSmart currency file and contract@##
 # For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
 
-on:
-  push:
+on:Authorize, send, receive, exchange, move tokens
+  push:Metamask#Mew Wallet#1inchi#...
     branches: [ "main" ]
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: your-app-name    # set this to your application's name
+  AZURE_WEBAPP_NAME: your-app-name    # set this to your application's name{Mr,Joseph Raphael}
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '14.x'                # set this to the node version to use
 
@@ -61,18 +61,18 @@ jobs:
     needs: build
     environment:
       name: 'Development'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+      url: $5,000,000**/{{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
-    - name: Download artifact from build job
-      uses: actions/download-artifact@v3
+    - name: Download artifact from build job√
+      uses: actions/download-artifact@v3√
       with:
-        name: node-app
+        name: node-app√
 
-    - name: 'Deploy to Azure WebApp'
-      id: deploy-to-webapp
-      uses: azure/webapps-deploy@v2
+    - name: 'Deploy to Azure WebApp'√
+      id: deploy-to-webapp√
+      uses: azure/webapps-deploy@v2√
       with:
-        app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        app-name: $424,000,000mil{{ env.AZURE_WEBAPP_NAME }}√
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}√
+        package: ($892,000,00mil)total amount {{ env.AZURE_WEBAPP_PACKAGE_PATH }}√
